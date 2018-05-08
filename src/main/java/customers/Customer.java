@@ -1,3 +1,5 @@
+package customers;
+
 public class Customer {
 
     private String name;
@@ -44,4 +46,8 @@ public class Customer {
     public void setCash(double cash) {
         this.cash = cash;
     }
+
+//    public void spendCash(double cash){
+//
+//    }
 }

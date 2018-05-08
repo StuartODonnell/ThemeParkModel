@@ -1,17 +1,14 @@
 package rides;
 
-import customers.Customer;
 
-import java.util.ArrayList;
-
-public class Giantsbane extends Ride{
+public class Frostfang extends Ride{
 
     private String name;
     private int minHeight;
     private int minAge;
     private double admissionPrice;
 
-    public Giantsbane(String name, int minHeight, int minAge, double admissionPrice) {
+    public Frostfang(String name, int minHeight, int minAge, double admissionPrice) {
         super(minHeight, minAge, admissionPrice);
         this.name = name;
         this.minHeight = minHeight;
@@ -28,4 +25,3 @@ public class Giantsbane extends Ride{
     }
 
 }
-
