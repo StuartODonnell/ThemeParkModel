@@ -47,7 +47,5 @@ public class Customer {
         this.cash = cash;
     }
 
-//    public void spendCash(double cash){
-//
-//    }
+
 }
