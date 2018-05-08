@@ -14,10 +14,11 @@ public class GiantsbaneTest {
   Giantsbane giantsbane;
   Customer customer;
 
+
     @Before
     public void before(){
-
       giantsbane = new Giantsbane("Giantsbane", 120, 12, 12.50);
+
     }
 
     @Test

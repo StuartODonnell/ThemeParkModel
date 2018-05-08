@@ -11,6 +11,7 @@ public class Giantsbane extends Ride{
     private int minAge;
     private double admissionPrice;
 
+
     public Giantsbane(String name, int minHeight, int minAge, double admissionPrice) {
         super(minHeight, minAge, admissionPrice);
         this.name = name;
@@ -23,9 +24,11 @@ public class Giantsbane extends Ride{
         return name;
     }
 
-    public String admitCustomer(){
-        return "Customer has been admitted to " + this.name;
-    }
+//    public String admitCustomer(){
+//        return "Customer has been admitted to " + this.name;
+//    }
+
+
 
 }
 
