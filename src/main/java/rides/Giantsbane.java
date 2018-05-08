@@ -24,9 +24,9 @@ public class Giantsbane extends Ride{
         return name;
     }
 
-//    public String admitCustomer(){
-//        return "Customer has been admitted to " + this.name;
-//    }
+    public String admitCustomer(){
+        return "Customer has been admitted to " + this.name;
+    }
 
 
 

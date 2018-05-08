@@ -57,10 +57,12 @@ public class GiantsbaneTest {
 
     @Test
     public void canAddCustomersToRide(){
+        customer = new Customer("Tormund", 180, 15, 15.00);
         giantsbane.admitCustomer(customer);
         giantsbane.admitCustomer(customer);
 
         assertEquals(2, giantsbane.getCustomerCount());
     }
-
+//this is a different admitCustomer method than the Ride
+// class admitCustomer method as on passes in an argument and one doesn't
 }
